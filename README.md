@@ -58,25 +58,26 @@ AppRegistry.registerComponent('myproject', () => MyComponent)
 |----------------|--------------|-----------------|-----------------------------|
 |visible|`bool`           | `false` |If `true`, modal is visible             | 
 |onClose|`func`           |  |Call when cancel button pressed            | 
-|sendComment|`func`           |  |Call when send button pressed, return comment text & select rating `{text, selectRating}`            | 
+|sendComment|`func`           |  |Call when send button pressed, return comment text & select rating `{text, selectRating}`| 
 |ratingConfirm|`func`           |  |Call when user voted, return `selectedRating`           | 
 |changeRating|`func`           |  |Call when rating changed, return `selectedRating`           | 
 |iTunesURL|`string`           |  |URL to app in iTunes `'itms-apps://itunes.apple.com/app/{APP_ID}'`           | 
 |playMarketURL|`string`           |  |URL to app in PlayMarket `'market://details?id={APP_PACKAGE_NAME}'`           | 
 |defaultRating|`number`           | `5` |Initial rating         | 
 |animationType|`string`           | `fade` |Modal animation type        |  
-|ratingBoxTitleStyle|`object`           |  |Styles for rating box title       |
 |ratingBoxTitleText|`string`           |  |Rating box title text       |
 |cancelBtnText|`string`           |`'Cancel'` |Cancel button text      |
 |rateBtnText|`string`           |`'Rate'` |Rate button text      |
 |commentBoxTitle|`string`           |  |Comment box title (style props === `ratingBoxTitleStyle`)  |
-|inputStyle|`object`           |  |Comment input styles  |
 |commentBoxPlaceholder|`string`           |  |Comment box input placeholder  |
+|sendBtnText|`string`           |  |Styles for send button  |
+
 
 #### Styles
 
 |                |type    |default                      |description                         |
 |----------------|--------------|-----------------|-----------------------------|
+|inputStyle|`object`           |  |Comment input styles  |
 |ratingBoxStyle|`object`           |  |Styles for rating box        | 
 |ratingBoxTitleStyle|`object`           |  |Styles for rating box title       |
 |modalContainerStyle|`object`           |  |Styles for modal container      |
@@ -85,7 +86,6 @@ AppRegistry.registerComponent('myproject', () => MyComponent)
 |cancelBtnStyles|`object`           |  |Styles for cancel button  |
 |rateBtnTextStyles|`object`           |  |Styles for rate button text  |
 |rateBtnStyles|`object`           |  |Styles for rate button  |
-|sendBtnText|`string`           |  |Styles for send button  |
 
 
 ## Contribution
