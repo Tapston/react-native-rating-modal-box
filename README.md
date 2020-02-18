@@ -1,7 +1,3 @@
-<p align="center">
-  The best Rating component for React Native.
-</p>
-
 # react-native-rating-modal-box
 
 ### Installation
