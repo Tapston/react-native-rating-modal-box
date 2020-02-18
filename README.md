@@ -35,8 +35,8 @@ const MyComponent = () => {
         playMarketURL="market://details?id=com.myproject.text"
         onClose={() => setOpenRating(false)}
         visible={isOpenRatin}
-        ratingConfirm={rating => {
-          console.log('Selected rating', rating);
+        ratingConfirm={selectedRating => {
+          console.log('Selected rating', selectedRating);
         }}
       />
   )
