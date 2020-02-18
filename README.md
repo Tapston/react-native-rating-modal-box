@@ -28,13 +28,13 @@ import React, {useState} from 'react'
 import RatingModal from 'react-native-rating-modal-box';
 
 const MyComponent = () => {
-  const [isOpenRatin, setOpenRating] = useState(true);
+  const [isOpenRating, setOpenRating] = useState(true);
   return (
     <RatingModal
         iTunesURL="itms-apps://itunes.apple.com/app/11111"
         playMarketURL="market://details?id=com.myproject.text"
         onClose={() => setOpenRating(false)}
-        visible={isOpenRatin}
+        visible={isOpenRating}
         ratingConfirm={selectedRating => {
           console.log('Selected rating', selectedRating);
         }}
