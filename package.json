@@ -16,7 +16,7 @@
   "license": "ISC",
   "author": "Roman Ravkov",
   "scripts": {},
-  "homepage": "https://github.com/romanravkov/react-native-rating-modal-box#readme",
+  "homepage": "https://github.com/Tapston/react-native-rating-modal-box#readme",
   "dependencies": {
     "react-native-extended-stylesheet": "^0.12.0"
   },
