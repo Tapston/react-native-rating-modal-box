@@ -1,0 +1,36 @@
+{
+  "name": "react-native-rating-modal-box",
+  "version": "1.0.7",
+  "description": "The Ratings component for React Native",
+  "main": "src/index.js",
+  "keywords": [
+    "react-native",
+    "reactjs",
+    "reactnative",
+    "ios",
+    "android",
+    "stars",
+    "ratings",
+    "ui-components"
+  ],
+  "license": "ISC",
+  "author": "Roman Ravkov",
+  "scripts": {},
+  "homepage": "https://github.com/romanravkov/react-native-rating-modal-box#readme",
+  "dependencies": {
+    "react-native-extended-stylesheet": "^0.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^0.0.7",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
