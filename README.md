@@ -3,9 +3,13 @@
 ### Installation
 
 ```bash
-$ npm i react-native-rating-modal-box --save
+$ npm i react-native-rating-modal-box
 ```
+##### Or
 
+```bash
+$ yarn add react-native-rating-modal-box
+```
 ### Basic Usage
 
 - Install `react-native` first

@@ -1,6 +1,6 @@
 {
   "name": "react-native-rating-modal-box",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The rating component for React Native",
   "main": "src/index.js",
   "keywords": [
