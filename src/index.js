@@ -61,7 +61,7 @@ const RatingModal = ({
   commentBoxPlaceholder = '...',
   sendBtnText = 'Send',
 }) => {
-  const [selectRating, setSelectRating] = React.useState(5);
+  const [selectRating, setSelectRating] = React.useState(defaultRating);
   const [openComment, setOpenComment] = React.useState(false);
   const [commentText, setCommentText] = React.useState('');
   return (
