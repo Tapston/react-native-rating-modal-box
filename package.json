@@ -13,8 +13,8 @@
     "ratings",
     "ui-components"
   ],
-  "license": "ISC",
-  "author": "Roman Ravkov",
+  "license": "MIT",
+  "author": "Tapston Development, LLC / tapston.com / Roman Ravkov",
   "scripts": {},
   "homepage": "https://github.com/Tapston/react-native-rating-modal-box#readme",
   "dependencies": {
